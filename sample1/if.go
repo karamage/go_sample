@@ -20,6 +20,7 @@ func sqrt(x float64) string {
 }
 
 func main() {
+	defer fmt.Println("world")
 	fmt.Println(sqrt(2), sqrt(-4))
 	fmt.Println(
 		pow(3, 2, 10),
